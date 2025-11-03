@@ -1,0 +1,45 @@
+.headerBackgroundColor {
+    background-color: #000324 !important;
+}
+.backgroundImageforWebsite {
+    background-image: url("/assets/header.jpg");
+}
+.textColorWhite {
+    color: white !important;
+}
+.backgroundforHeader {
+    background-color: #000324;
+    opacity: 0.8;
+}
+.backgroundForAmenities {
+    color: white;
+    background-image: url("/assets/bg.jpg");
+    width: 100%;
+}
+.textHeader {
+    font-size: 35px;
+}
+.textColorHeaderFooter {
+    color: #E5FEFF;
+}
+.reserveARoomBackgroundImage {
+    background-image: url("/assets/hamsterreserve.jpg");
+    width:100%;
+}
+.ourRoomsBackgroundImage {
+    background-image: url("/assets/bg2.jpg");
+    width:100%;
+}
+.sectionHeight {
+    height:800px;
+}
+.priceTextColor {
+    color: #1F51A8;
+}
+.websiteHeaderBackground {
+    background-color:#000324 !important;
+    opacity: 0.8 !important;
+}
+.headerSectionHeight {
+    height: 400px;
+}
