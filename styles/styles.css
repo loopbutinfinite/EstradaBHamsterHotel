@@ -43,3 +43,24 @@
 .headerSectionHeight {
     height: 400px;
 }
+.cardImageSizing {
+    height:100% !important;
+}
+.textSizeLarger {
+    font-size: xx-large;
+}
+.textSizeLarge {
+    font-size: x-large;
+}
+.textSizePackagesBody {
+    font-size: large;
+}
+.headerTitleFontSize {
+    font-size: 57px;
+}
+.headerBodyFontSize {
+    font-size: 20px;
+}
+.customBorderReserve {
+    border: 2px solid #E5FEFF
+}
