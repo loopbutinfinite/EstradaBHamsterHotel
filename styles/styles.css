@@ -3,6 +3,7 @@
 }
 .backgroundImageforWebsite {
     background-image: url("/assets/header.jpg");
+    width: 100%;
 }
 .textColorWhite {
     color: white !important;
@@ -62,5 +63,27 @@
     font-size: 20px;
 }
 .customBorderReserve {
-    border: 2px solid #E5FEFF
+    border: 2px solid #E5FEFF;
+}
+
+.bg-body-tertiary {
+    background-color: #000324 !important;
+    color: white !important;
+}
+@media (max-width: 767px) {
+    .fontSizeSM{
+        font-size:44px;
+    }
+    .fontSizeSMBody{
+        font-size:16px;
+    }
+    .headerSectionHeightSM {
+        height: 200px;
+    }
+    .sectionHeightSM {
+        height:700px;
+    }
+    .fontSizeFooterSM {
+        font-size: 14px;
+    }
 }
