@@ -1,0 +1,5 @@
+//Brandon Estrada
+//Date Revised: November 6, 2025
+//Hamster Hotel
+//Description: Created a html website from a prototype. The website utilizes components from Bootstrap and includes css classes from Bootstrap's library to style the website. Semantic html tags are used for accessability purposes. The website also uses custom css classes that target and overwrites Bootstrap's preset css and overwrites it for styling. The website is made with responsiveness in mind for various devices (mobile, tablet, desktop) and calls upon Bootstrap's css classes that utilize breakpoints and hiding elements for device layout and styling purposes. Also, media queries are used that are activated once the website reaches the screen size condition and styles the website with custom css for better readability on smaller devices. 
+//Peer Review (your name): 
