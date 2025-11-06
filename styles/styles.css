@@ -3,6 +3,8 @@
 }
 .backgroundImageforWebsite {
     background-image: url("/assets/header.jpg");
+    background-repeat: no-repeat; /* makes sure that there is no repeats of the image being used */
+    background-size: cover; /* ensures that a background image completely fills its container, without leaving empty space, and maintaining the image's original aspect ratio */
     width: 100%;
 }
 .textColorWhite {
@@ -10,7 +12,7 @@
 }
 .backgroundforHeader {
     background-color: #000324;
-    opacity: 0.8;
+    opacity: 0.8; /* allows for that semi-transparent look */
 }
 .backgroundForAmenities {
     color: white;
@@ -62,14 +64,28 @@
 .headerBodyFontSize {
     font-size: 20px;
 }
+/* .btn, .btn-primary {
+    height: 60px !important;
+} */
+/* .noWrapText {
+    white-space: nowrap;
+    overflow: hidden;
+} */
+.buttonHeight {
+    height: 60px;
+}
 .customBorderReserve {
     border: 2px solid #E5FEFF;
 }
-
+.fontSizeRooms {
+    font-size:30px;
+}
 .bg-body-tertiary {
     background-color: #000324 !important;
     color: white !important;
 }
+
+/* Media Query for mobile and exclusive css classes */
 @media (max-width: 767px) {
     .fontSizeSM{
         font-size:44px;
@@ -85,5 +101,27 @@
     }
     .fontSizeFooterSM {
         font-size: 14px;
+    }
+    .fontSizeAwards {
+        font-size: 27px;
+    }
+    .fontSizeAmenitiesHeader{
+        font-size: 65px;
+    }
+    .fontSizeAmenitiesBody {
+        font-size: 20px;
+    }
+    .fontSizeAmenitiesList {
+        font-size: 25px;
+    }
+    .fontSizePackagesTitle {
+        font-size: 50px;
+    }
+}
+
+/* Media query for tablet and exclusive css classes */
+@media (max-width: 768px) {
+    .fontSizeLarge{
+        font-size: 44px;
     }
 }
