@@ -84,6 +84,10 @@
     background-color: #000324 !important;
     color: white !important;
 }
+.navbar-toggler1 {
+    color: white !important;
+    background-color: white !important;
+}
 
 /* Media Query for mobile and exclusive css classes */
 @media (max-width: 767px) {
@@ -123,5 +127,21 @@
 @media (max-width: 768px) {
     .fontSizeLarge{
         font-size: 44px;
+    }
+}
+@media (max-width: 575.98px) {
+    .fontSizeXSScreen{
+        font-size: 38px;
+    }
+    .fontSizeXSscreen {
+        font-size: 16px;
+    }
+    .justifySteeart {
+        display: flex;
+        justify-content:start !important;
+    }
+    .justifyCeneteer {
+        display: flex;
+        justify-self: center !important;
     }
 }
