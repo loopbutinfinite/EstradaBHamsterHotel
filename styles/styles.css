@@ -88,6 +88,19 @@
     color: white !important;
     background-color: white !important;
 }
+.removeBorder {
+    border: 0px !important; /* Custom css class to overwrite and remove border from select Bootstrap cards*/
+}
+.dosisFont {
+    font-family: "Dosis", sans-serif;
+}
+.sourceSansPro {
+    font-family: "Source Sans 3", sans-serif;
+}
+.alignButtonEnd {
+    display: flex;
+    align-self: flex-end;
+}
 
 /* Media Query for mobile and exclusive css classes */
 @media (max-width: 767px) {
